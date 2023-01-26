@@ -50,7 +50,7 @@ class ParkingGarage
     when 'large'
       if @large > 0
         parking_spots[:large_spot] << car
-        large -= 1
+        @large -= 1
         parking_status(car, 'large')
       elsif @large.zero?
         shuffle_large(car)
