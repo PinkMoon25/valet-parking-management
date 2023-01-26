@@ -4,7 +4,7 @@ A valet parking management system in ruby, this is a console application where y
 
 ## Built with
 
-> Ruby
+ - **Ruby**
 
 ## Getting Started
 
